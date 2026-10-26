@@ -1,0 +1,17 @@
+# Build directories
+build/
+bin/
+
+# Qt Creator & IDE settings
+.qtcreator/
+*.user
+*.user.*
+.qmlls.ini
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
