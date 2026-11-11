@@ -17,5 +17,5 @@ int main(int argc, char *argv[])
         Qt::QueuedConnection);
     engine.loadFromModule("Dual_dial", "Main");
 
-    return QGuiApplication::exec();
+    return app.exec();
 }
